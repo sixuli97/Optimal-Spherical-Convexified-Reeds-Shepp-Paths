@@ -15,6 +15,7 @@ Using **Python 3.11** and the following dependencies:
 
 ```bash
 pip install numpy matplotlib plotly scipy
+```
 
 
 ---
