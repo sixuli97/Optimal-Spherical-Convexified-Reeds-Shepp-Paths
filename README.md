@@ -2,6 +2,10 @@
 
 A Python implementation for solving the **time-optimal path problem** of a **convexified Reeds-Shepp vehicle on a sphere**, with visualization.
 
+For details of the candidate paths generation, please refer to the note attached:
+**[Read PDF](Convexified_Reeds_Shepp_on_Sphere_Path_Generation.pdf)**
+
+
 <br><br>
 
 ## 🔹 Features
@@ -48,8 +52,6 @@ CRS_plot(feas, opt, ini_config, terminal_config) # 🎨 Plot the optimal path an
 <br><br>
 
 ## 📖 References
-For details of the candidate paths generation, please refer to the note attached:
-**[Download PDF](Convexified_Reeds_Shepp_on_Sphere_Path_Generation.pdf)**
 
 If you use this work, please cite:
 
