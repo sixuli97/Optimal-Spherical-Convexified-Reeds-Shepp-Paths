@@ -1,2 +1,51 @@
-# Optimal-Spherical-Convexified-Reeds-Shepp-Paths
-Python implementation for solving the time-optimal path problem of a convexified Reeds-Shepp vehicle on a sphere, with visualization.
+# 🚗 Time-Optimal Path Planning on a Sphere for a Convexified Reeds-Shepp Vehicle
+
+A Python implementation for solving the **time-optimal path problem** of a **convexified Reeds-Shepp vehicle on a sphere**, with visualization.
+
+---
+
+## 🔹 Features
+✅ **Time-optimal path and feasible paths generation**  
+✅ **Visualization** of the optimal path and feasible paths on a unit sphere  
+
+---
+
+## 📦 Installation
+Using **Python 3.11** and the following dependencies:
+
+```bash
+pip install numpy matplotlib plotly scipy
+
+
+---
+
+## 🚀 Usage
+
+### Solve the Time-Optimal Path Problem and Visualize
+```python
+from CRS_on_sphere_opt import opt_path_gen, CRS_plot
+import numpy as np
+
+terminal_config = np.array([[0.804977,   -0.59221622,  0.03594413],
+ 		            [-0.56946107, -0.75420323,  0.32694278],
+ 		            [-0.16651164, -0.2836502,  -0.94436033]]) # 🎯 Example desired terminal configuration on a sphere (in SO(3))
+ini_config = np.eye(3)  # 🏁 Example start configuration on a sphere (in SO(3))
+U_max = 3 # ⚙️ Example maximum truning rate
+
+feas,opt = opt_path_gen(U_max, ini_config, terminal_config) # ✅ Solve for the optimal path and all feasible paths
+
+CRS_plot(feas, opt, ini_config, terminal_config) # 🎨 Plot the optimal path and all feasible paths on a unit sphere
+```
+
+---
+
+## 📊 Visualization Example
+🖼️ Example plot of the optimal path and feasible paths on a sphere:  
+![Example Visualization](assets/numerical example.png)
+
+
+---
+
+## 📖 References
+
+
