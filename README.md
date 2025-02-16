@@ -15,7 +15,6 @@ Using **Python 3.11** and the following dependencies:
 
 ```bash
 pip install numpy matplotlib plotly scipy
-```
 
 
 ---
@@ -42,7 +41,7 @@ CRS_plot(feas, opt, ini_config, terminal_config) # 🎨 Plot the optimal path an
 
 ## 📊 Visualization Example
 🖼️ Example plot of the optimal path and feasible paths on a sphere:  
-![Example Visualization](assets/numerical example.png)
+![Example Visualization](assets/numerical_example.png)
 
 
 ---
