@@ -41,6 +41,7 @@ U_max = 3 # ⚙️ Example maximum truning rate
 feas,opt = opt_path_gen(U_max, ini_config, terminal_config) # ✅ Solve for the optimal path and all feasible paths
 
 CRS_plot(feas, opt, ini_config, terminal_config) # 🎨 Plot the optimal path and all feasible paths on a unit sphere
+# To plot only the optimal path, replace "feas" with "[]" in CRS_plot()
 ```
 
 <br><br>
