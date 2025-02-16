@@ -2,13 +2,13 @@
 
 A Python implementation for solving the **time-optimal path problem** of a **convexified Reeds-Shepp vehicle on a sphere**, with visualization.
 
----
+
 
 ## 🔹 Features
 ✅ **Time-optimal path and feasible paths generation**  
 ✅ **Visualization** of the optimal path and feasible paths on a unit sphere  
 
----
+
 
 ## 📦 Installation
 Using **Python 3.11** and the following dependencies:
@@ -18,7 +18,7 @@ pip install numpy matplotlib plotly scipy
 ```
 
 
----
+
 
 ## 🚀 Usage
 
@@ -38,15 +38,15 @@ feas,opt = opt_path_gen(U_max, ini_config, terminal_config) # ✅ Solve for the 
 CRS_plot(feas, opt, ini_config, terminal_config) # 🎨 Plot the optimal path and all feasible paths on a unit sphere
 ```
 
----
+
 
 ## 📊 Visualization Example
 🖼️ Example plot of the optimal path and feasible paths on a sphere:  
 ![Example Visualization](assets/numerical_example.png)
 
 
----
+
 
 ## 📖 References
-
+If you use this work, please cite:
 
