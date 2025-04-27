@@ -67,10 +67,11 @@ If you use this work, please cite:
   author  = {Li, Sixu and Kumar, Deepak Prakash and Darbha, Swaroop and Zhou, Yang},
   journal = {arXiv preprint arXiv:2504.00966},
   year    = {2025}
-
+}
+```bibtex
 @article{li2025closed,
   title={Closed-form Generation of Paths for Motion Planning of a Convexified Reeds--Shepp Vehicle on a Sphere},
   author={Li, Sixu and Kumar, Deepak Prakash and Darbha, Swaroop and Zhou, Yang},
   publisher={Engineering Archive}
 }
-}
+
