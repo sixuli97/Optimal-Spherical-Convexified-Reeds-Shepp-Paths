@@ -6,7 +6,7 @@ The proofs of optimal path characterization are detailed in:
 > Li, S., Kumar, D. P., Darbha, S., & Zhou, Y. (2025). [*Time-Optimal Convexified Reeds-Shepp Paths on a Sphere*](https://arxiv.org/abs/2504.00966). arXiv preprint arXiv:2504.00966.
 
 For details on generating candidate paths, please refer to the supplementary note:
->Li, S., Kumar, D. P., Darbha, S., & Zhou, Y. (2025). Closed-form Generation of Paths for Motion Planning of a Convexified Reeds–Shepp Vehicle on a Sphere.
+>Li, S., Kumar, D. P., Darbha, S., & Zhou, Y. (2025). Closed-form Generation of Paths for Motion Planning of a Convexified Reeds-Shepp Vehicle on a Sphere. Available at SSRN 5227769.
 
 The note is also attached here: **[Note](Convexified_Reeds_Shepp_on_Sphere_Path_Generation.pdf)**
 
@@ -70,8 +70,9 @@ If you use this work, please cite:
 }
 
 @article{li2025closed,
-  title={Closed-form Generation of Paths for Motion Planning of a Convexified Reeds--Shepp Vehicle on a Sphere},
+  title={Closed-form Generation of Paths for Motion Planning of a Convexified Reeds-Shepp Vehicle on a Sphere},
   author={Li, Sixu and Kumar, Deepak Prakash and Darbha, Swaroop and Zhou, Yang},
-  publisher={Engineering Archive}
+  journal={Available at SSRN 5227769},
+  year={2025}
 }
 
